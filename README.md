@@ -42,3 +42,11 @@ cd my-project
 #
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init -p
+
+
+TAILWINDCSS INSTALLATION
+npx create-next-app@latest my-project --typescript --eslint
+cd my-project
+#
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
