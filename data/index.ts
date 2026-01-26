@@ -5,10 +5,11 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication and innovative solutions",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm very flexible with time zone communications, especially across Africa and globally",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +30,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "I constantly try to improve and stay updated with full stack trends",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for full stack development and web innovation.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -46,10 +47,9 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building an AI-powered article summarizer tool",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Do you want to start a full stack project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -69,73 +69,78 @@ export const gridItems = [
   },
 ];
 
+
+
+
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "YouTube Clone",
+    des: "A full-featured video streaming platform replicating YouTube's core functionalities, including video uploads, search, recommendations, and user authentication, built with modern web technologies.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/node.svg", "/mongo.svg"],
+    link: "/ui.youtubeclone.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "IMDb Clone",
+    des: "An interactive movie database application mimicking IMDb, featuring movie ratings, reviews, search capabilities, user profiles, and API integrations for real-time data fetching.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/graphql.svg", "/postgres.svg"],
+    link: "/ui.imdbclone.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Apple Webstore Clone",
+    des: "A responsive e-commerce site recreating the Apple online store experience, with product listings, shopping cart, secure checkout, and dynamic animations for an engaging user interface.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stripe.svg", "/aws.svg"],
+    link: "/ui.applewebstore.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Article Summarizer",
+    des: "An AI-powered tool that extracts and condenses key information from articles, supporting natural language processing for quick insights, with a clean UI for input and output display.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/ai.svg", "/firebase.svg"],
+    link: "/ui.articlesummarizer.com",
   },
 ];
+
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Kwabena was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Kwabena's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Kwabena is the ideal partner.",
+    name: "Ama Osei",
+    title: "CEO of mPharma",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Kwabena on our web application was transformative. His full stack expertise, from seamless frontend designs to robust backend integrations, exceeded our expectations. Kwabena's innovative approach and attention to detail made our project a success. Highly recommend him for any development needs.",
+    name: "Kofi Mensah",
+    title: "Project Manager at Microsoft",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Kwabena's skills as a web developer are top-notch. He brought our vision to life with modern, minimalistic designs and efficient code. His commitment to user-centric development and quick turnaround times were impressive. If you want a reliable partner to boost your online presence, Kwabena is the one.",
+    name: "Nana Yaa Asante",
+    title: "Founder of Oze",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of teaming up with Kwabena for a complex e-commerce platform. His mastery of JavaScript frameworks and cloud deployments shone through. Kwabena's proactive problem-solving and passion for clean code made the collaboration smooth and effective. He's a true asset to any tech team.",
+    name: "Yaw Boateng",
+    title: "Director of Innovation at Google",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Kwabena elevated our company's digital strategy with his full stack engineering prowess. From ideation to deployment, his dedication and technical acumen were unparalleled. If you're looking to build scalable, high-performance web solutions, Kwabena's enthusiasm and expertise make him the perfect choice.",
+    name: "Efua Adjei",
+    title: "CTO of Zipline",
   },
 ];
+
 
 export const companies = [
   {
@@ -170,36 +175,39 @@ export const companies = [
   },
 ];
 
+
+
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Developer Intern",
+    desc: "Assisted in building responsive web applications using HTML, CSS, and JavaScript, focusing on user interface enhancements.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Full Stack Developer - mPharma",
+    desc: "Developed scalable web platforms integrating frontend with React.js and backend with Node.js for healthcare solutions in Ghana.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Full Stack Project",
+    desc: "Led the development of a custom e-commerce website for a local client, handling everything from database design to deployment on AWS.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Senior Full Stack Engineer",
+    desc: "Led teams in creating robust web applications using modern stacks like Next.js and MongoDB, optimizing for performance and scalability.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
 ];
+
 
 export const socialMedia = [
   {
